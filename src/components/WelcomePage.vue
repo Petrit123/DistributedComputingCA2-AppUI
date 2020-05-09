@@ -29,9 +29,12 @@ export default {
                 
               let apiResponse = '';
 
-                fetch("https://localhost:5094/user/loggOff", {
+                await fetch("https://localhost:5094/user/logoff", {
                 method: 'POST',
                 headers: {'Accept': 'application/json', 'Content-Type': 'application/json'},
+                body: JSON.stringify({
+                  username: "petrit"
+                })
               }).then(res => res.text())
               .then(text => apiResponse = text)
 
