@@ -54,6 +54,8 @@
      <b> {{ apiResponse }} </b>
   </span>
   <br>
+  <br><br>
+    <p class="copyright" align="center">© Petrit Krasniqi 2020 </p>
           </v-col>
         </v-row>
       </v-container>
