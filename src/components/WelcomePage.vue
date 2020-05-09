@@ -29,7 +29,7 @@ export default {
                 
               let apiResponse = '';
 
-                await fetch("https://localhost:5094/user/logoff", {
+                await fetch("https://localhost:5094/api/logoff", {
                 method: 'POST',
                 headers: {'Accept': 'application/json', 'Content-Type': 'application/json'},
                 body: JSON.stringify({
