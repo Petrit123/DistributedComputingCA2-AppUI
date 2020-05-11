@@ -12,8 +12,7 @@
     "core-js": "^3.6.4",
     "vue": "^2.6.11",
     "vue-router": "^3.1.6",
-    "vuetify": "^2.2.11",
-    "http-proxy-middleware": "^0.20.0"
+    "vuetify": "^2.2.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.3.0",
@@ -42,7 +41,6 @@
     },
     "rules": {}
   },
-  "proxy": "https://localhost:5094/",
   "browserslist": [
     "> 1%",
     "last 2 versions",
